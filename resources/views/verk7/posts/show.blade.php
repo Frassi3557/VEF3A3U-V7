@@ -1,4 +1,4 @@
-@extends('verk5.layouts.master')
+@extends('verk7.layouts.master')
 
 @section('title')
   Person
