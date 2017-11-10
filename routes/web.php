@@ -39,4 +39,4 @@ Route::get('/verk5', 'V5Controller@index');
 Route::get('/verk5/person/{id}', 'V5Controller@show');
 //verkefni7
 Route::get('/verk7', 'V7Controller@index');
-Route::get('/verk7/person/{id}', 'V7Controller@show');
+Route::get('/verk7/posts/{id}', 'V7Controller@show');
