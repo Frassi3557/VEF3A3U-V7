@@ -34,9 +34,9 @@ img{
 }
 
 .top-ul li a:hover:not(.active) {
-    background-color: #4CAF50;
+    background-color: red;
 }
 
 .active {
-    background-color: #111;
+    background-color: black;
 }
