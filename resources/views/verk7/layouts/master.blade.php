@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       <!-- Styles -->
         <style>
             
