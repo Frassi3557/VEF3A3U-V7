@@ -45,9 +45,11 @@ img{
 
 .news-box{
     background-color: white;
-    width: 25%;
+    width: 40%;
     margin: 0;
     border-bottom: .03em solid black;
+    float: left;
+    margin: .5em;
 }
 .news-box img{
     width: 100%;
