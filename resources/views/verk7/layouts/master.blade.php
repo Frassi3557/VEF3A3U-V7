@@ -12,7 +12,7 @@
   </head>
   <body>
       @include ('verk7.layouts.nav')
-    <ul>
+    <ul id="myUL">
       @yield('list')
     </ul>
   </body>
