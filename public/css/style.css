@@ -1,7 +1,7 @@
 html, body {
     background-color: #fff;
     color: #636b6f;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 100;
     height: 100vh;
     margin: 0;
@@ -40,16 +40,24 @@ img{
 .active {
     background-color: black;
 }
-
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
 /********News Box**************/
 
 .news-box{
-    background-color: #e3e3e3;
-    width: 25%;
+    background-color: white;
+    width: 40%;
     margin: 0;
-    border-top-left-radius: .5em;
-    border-top-right-radius: .5em;
-    border: .08em solid black;
+    border-bottom: .03em solid black;
+    float: left;
+    margin: .5em;
 }
 .news-box img{
     width: 100%;
@@ -59,4 +67,39 @@ img{
 .news-box li{
     list-style: none;
     text-align: center;
+		width: 70%;
+		margin: 0 auto;
+	padding-bottom: .4em;
+}
+.news-box a{
+		color: black;
+	width: 100%;
+}
+
+/********Article******/
+
+.article{
+	width: 100%;
+}
+
+.article h1{
+	text-align: center;
+	font-size: 4em;
+	color: black;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.article img{
+	display: block;
+	width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article p{
+	text-align: center;
+	font-size: 1.3em;
+	width: 70%;
+	margin: 0 auto;
 }
