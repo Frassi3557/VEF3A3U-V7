@@ -1,4 +1,5 @@
 <div class="news-box">
+<<<<<<< HEAD
 	<a href="/verk7/posts/1"><img src="<?= $persons[0][1] ?>"></a>
 	<li><a href="/verk7/posts/1"><?= $persons[0][0]; ?></a></li>
 </div>
@@ -10,3 +11,10 @@
 	<a href="/verk7/posts/3"><img src="<?= $persons[2][1] ?>"></a>
 	<li><a href="/verk7/posts/3"><?= $persons[2][0]; ?></a></li>
 </div>
+=======
+    <a href="verk7/posts/1">
+        <img src="<?= $persons[0][1] ?>">
+        <li><?= $persons[0][0]; ?></li>
+    </a>
+</div>
+>>>>>>> cccc9114c166fc03287b7ee93b1796b889138baa
