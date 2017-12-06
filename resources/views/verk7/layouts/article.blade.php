@@ -1,3 +1,4 @@
+<a class="back" href="/verk7">Back</a>
 <div class="article">
 	<?php $id = $id-1; ?>
 	<h1><?= $persons[$id][0]; ?></h1>

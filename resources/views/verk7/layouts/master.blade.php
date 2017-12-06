@@ -9,6 +9,7 @@
             
         </style>
       <link href="/css/style.css" rel="stylesheet">
+		<script type="text/javascript" src="/js/find.js"></script>
   </head>
   <body>
       @include ('verk7.layouts.nav')

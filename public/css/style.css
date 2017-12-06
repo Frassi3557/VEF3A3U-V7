@@ -51,33 +51,36 @@ img{
 }
 /********News Box**************/
 
-.news-box{
+#news-box{
     background-color: white;
-    width: 40%;
+    width: 30%;
     margin: 0;
     border-bottom: .03em solid black;
     float: left;
     margin: .5em;
 }
-.news-box img{
+#news-box img{
     width: 100%;
     margin: 0;
     border-radius: .5em;
 }
-.news-box li{
+#news-box li{
     list-style: none;
     text-align: center;
 		width: 70%;
 		margin: 0 auto;
 	padding-bottom: .4em;
 }
-.news-box a{
+#news-box a{
 		color: black;
 	width: 100%;
 }
 
 /********Article******/
-
+.back{
+	color: black;
+	font-size: 2em;
+}
 .article{
 	width: 100%;
 }

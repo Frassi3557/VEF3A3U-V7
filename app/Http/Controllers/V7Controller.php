@@ -8,18 +8,28 @@ class V7Controller extends Controller
     $persons = array(
       #Nafn, mynd, frekari upplýsingar, fæðingaár, land uppruna
       array(
-        'UFC Conor McGregor-Georges Saint-Pierre superfight possible, Dana White',
+        'UFC Conor McGregor-Georges Saint-Pierre superfight possible',
         'https://cdn.vox-cdn.com/thumbor/BVEbWJfs0UTW21vfIjhqJYthDwU=/0x0:1100x733/1200x800/filters:focal(329x22:505x198)/cdn.vox-cdn.com/uploads/chorus_image/image/54691151/320_Georges_St-Pierre_vs_Johny_Hendricks.1384671336.0.jpg',
       ),
       
       array(
         'UFC to relocate Darren Till-headlined Fight Night to England',
-        'https://images.tapology.com/letterbox_images/37393/default/Darren-Till.jpg?1439481372',
+        'https://themaclife.com/wp-content/uploads/2017/10/Darren-Till-Weigh-In-Gdansk.jpg',
       ),
 			
 			array(
         'Darren Till and Gunnar Nelson Have a Nice Chat Agreeing to Fight Each Other',
-        'http://www.bjpenn.com/wp-content/uploads/2017/11/aGunnarTill.jpg.pagespeed.ic.UM98lz0irS.webp',
+        'https://cdn.vox-cdn.com/thumbor/J6zUqzcTYPsSX7HrxR1QjSP0sus=/0x0:1200x800/1200x800/filters:focal(566x82:758x274)/cdn.vox-cdn.com/uploads/chorus_image/image/53763135/037_Gunnar_Nelson_vs_Brandon_Thatch.0.0.jpg',
+      ),
+			
+			array(
+        'Five Viking will fight on Fight Star Championship 13 in London this December',
+        "http://mmafrettir.is/wp-content/uploads/2016/07/bjarki-%C3%BE%C3%B3r-paulsson.jpg",
+      ),
+			
+			array(
+        'Francis Ngannou knocks out Alistair Overeem at UFC 218',
+        "https://img.bleacherreport.net/img/images/photos/003/711/187/hi-res-449951696485a7a1f87edbc2112921c6_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
       )
     );
       
@@ -61,7 +71,17 @@ Till has already drawn comparisons to Conor McGregor, the UFC's outspoken and ha
 			array(
         'Darren Till and Gunnar Nelson Have a Nice Chat Agreeing to Fight Each Other',
         'http://www.bjpenn.com/wp-content/uploads/2017/11/GunnarTill.jpg',
-        'Darren Till’s hype is like a meteor after finishing Cowboy Cerrone at UFC Gdansk, but what good is momentum if the guy can’t get a fight? Mike Perry and Till had their screaming match after the fight, but he’s booked for the time being. Our hearts skipped a beat when Dana White announced Stephen ‘Wonderboy’ Thompson and Till were going to scrap, but Thompson quickly squashed the news. It was frustrating enough for Darren Till to post that the welterweight division is all running scared, which led none other than Gunnar Nelson to chime in.')
+        'Darren Till’s hype is like a meteor after finishing Cowboy Cerrone at UFC Gdansk, but what good is momentum if the guy can’t get a fight? Mike Perry and Till had their screaming match after the fight, but he’s booked for the time being. Our hearts skipped a beat when Dana White announced Stephen ‘Wonderboy’ Thompson and Till were going to scrap, but Thompson quickly squashed the news. It was frustrating enough for Darren Till to post that the welterweight division is all running scared, which led none other than Gunnar Nelson to chime in.'),
+			
+			array(
+        'Five Vikings will fight at Fightstar 13',
+        'http://mmafrettir.is/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-20.50.25.png',
+        'Það verður nóg um að vera um helgina fyrir bardagaaðadáendur á Íslandi. FightStar 13 bardagakvöldið fer þá fram í London um helgina þar sem fimm Íslendingar berjast.<br><br>Bjarki Þór Pálsson, Bjarki Ómarsson og Ingþór Örn Valdimarsson berjast allir atvinnubardaga en Bjarki Þór er í aðalbardaga kvöldsins.<br><br>Jeremy Aclipen fékk staðfestan bardaga í gær og kemur inn í stað bardagamanns sem meiddist. Bardaginn fer fram í 68 kg hentivigt en Jeremy fékk símtalið í gærmorgun (mánudag). Hann fær því skamman fyrirvara fyrir sinn fyrsta bardaga en var ekki lengi að segja já þegar símtalið barst. Þá er Bjartur Guðlaugsson einnig í áhugamannabardaga rétt eins og Jeremy.'),
+			
+			array(
+        'Francis Ngannou knocks out Alistair Overeem at UFC 218',
+        'https://img.bleacherreport.net/img/images/photos/003/711/187/hi-res-449951696485a7a1f87edbc2112921c6_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top',
+        "Francis Ngannou took a huge step toward proving he's the future of the heavyweight division with a first-round knockout victory over Alistair Overeem in the co-main event of UFC 218 at Little Caesars Arena in Detroit.<br><br>The Reem came out trying to clinch with Ngannou—a good idea given the incredible power Ngannou possesses. However, the hulking heavyweight was able to flip position and trap Overeem against the cage.<br><br>After some stalling against the cage, referee Dan Miragliotta decided to separate the two. That was bad news for Overeem. Ngannou unleashed a massive left hook that instantly turned out the lights and announced himself as one of the most dangerous men in the division.")
     );
     return view('verk7/posts.show', compact('persons', 'id'));
   }
