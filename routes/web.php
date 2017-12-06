@@ -40,3 +40,6 @@ Route::get('/verk5/person/{id}', 'V5Controller@show');
 //verkefni7
 Route::get('/verk7', 'V7Controller@index');
 Route::get('/verk7/posts/{id}', 'V7Controller@show');
+Route::get('/verk7/fighters', 'V7Controller@fighters');
+Route::get('/verk7/fighters/upload', 'V7Controller@upload');
+Route::post('/verk7/fighterstore', 'V7Controller@store');

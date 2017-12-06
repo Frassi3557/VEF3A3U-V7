@@ -18,12 +18,12 @@ class V7Controller extends Controller
       ),
 			
 			array(
-        'Darren Till and Gunnar Nelson Have a Nice Chat Agreeing to Fight Each Other',
+        'Darren Till and Gunnar Nelson Agreeing to Fight Each Other',
         'https://cdn.vox-cdn.com/thumbor/J6zUqzcTYPsSX7HrxR1QjSP0sus=/0x0:1200x800/1200x800/filters:focal(566x82:758x274)/cdn.vox-cdn.com/uploads/chorus_image/image/53763135/037_Gunnar_Nelson_vs_Brandon_Thatch.0.0.jpg',
       ),
 			
 			array(
-        'Five Viking will fight on Fight Star Championship 13 in London this December',
+        'Five Viking will fight on Fight Star in London this December',
         "http://mmafrettir.is/wp-content/uploads/2016/07/bjarki-%C3%BE%C3%B3r-paulsson.jpg",
       ),
 			
@@ -84,5 +84,16 @@ Till has already drawn comparisons to Conor McGregor, the UFC's outspoken and ha
         "Francis Ngannou took a huge step toward proving he's the future of the heavyweight division with a first-round knockout victory over Alistair Overeem in the co-main event of UFC 218 at Little Caesars Arena in Detroit.<br><br>The Reem came out trying to clinch with Ngannou—a good idea given the incredible power Ngannou possesses. However, the hulking heavyweight was able to flip position and trap Overeem against the cage.<br><br>After some stalling against the cage, referee Dan Miragliotta decided to separate the two. That was bad news for Overeem. Ngannou unleashed a massive left hook that instantly turned out the lights and announced himself as one of the most dangerous men in the division.")
     );
     return view('verk7/posts.show', compact('persons', 'id'));
+  }
+    public function fighters() {
+     return view('verk7/fighter.index');
+   }
+  
+  public function upload() {
+    return view('verk7/fighter.add-fighter');
+  }
+   public function store()
+  {	
+		return view('/verk7/fighter.fighterstore');
   }
 }
