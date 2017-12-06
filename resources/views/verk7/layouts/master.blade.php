@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="http://www.tskoli.is/skin/basic9k/i/fav-large.png">
     <title>@yield('title')</title>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       <!-- Styles -->
         <style>
             
@@ -12,7 +12,8 @@
   </head>
   <body>
       @include ('verk7.layouts.nav')
-    
+    <ul id="myUL">
       @yield('list')
+    </ul>
   </body>
 </html>
